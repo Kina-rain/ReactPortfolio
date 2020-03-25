@@ -6,8 +6,6 @@ import Portfolio from "./pages/portfolio";
 import Resume from "./pages/resume";
 import Footer from "../src/components/footer/footer";
 
-
-
 function App() {
   return (
     <Router>
@@ -16,7 +14,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={ Profile } />
           <Route exact path="/portfolio" component={ Portfolio } />
-          <Route exact path="/resume" component={ Resume } />
+          <Route exact path="/resume" component={ Resume } />209
         </Switch>
         <Footer />  
       </div>
